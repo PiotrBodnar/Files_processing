@@ -1,5 +1,3 @@
-// Adam Geppert, Piotr Bodnar Grupa 7
-
 #include "FileFactory.h"
 
 IFile* FileFactory::Open(const std::string filePath, const std::string mode)
