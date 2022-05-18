@@ -1,5 +1,3 @@
-// Adam Geppert, Piotr Bodnar Grupa 7
-
 #include "IFile.h"
 
 IFile::IFile(const std::string filePath, const std::string mode) : filePath(filePath), openMode(0), length(0)
