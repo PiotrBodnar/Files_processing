@@ -1,5 +1,3 @@
-// Adam Geppert, Piotr Bodnar Grupa 7
-
 #include "BinaryFile.h"
 #include "CsvFile.h"
 #include "FileFactory.h"
