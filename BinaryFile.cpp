@@ -1,5 +1,3 @@
-// Adam Geppert, Piotr Bodnar Grupa 7
-
 #include "BinaryFile.h"
 
 BinaryFile::BinaryFile(const std::string filePath, const std::string mode) : IFile(filePath, mode)
