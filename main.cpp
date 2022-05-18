@@ -9,7 +9,6 @@
 
 int main()
 {
-	//LAB 4
 	/*BinaryFile fileBin("test.bin", "r");
 	Point wynik;
 	fileBin.Read(wynik, 0);
@@ -24,8 +23,7 @@ int main()
 
 
 
-	//LAB 5
-	//--------------------------------------------------------Sprawdzenie zapisu------------------------------------------------
+	//--------------------------------------------------------Saving check------------------------------------------------
 	/*FileFactory file1;
 	IFile* pFileBin = file1.Open("test.bin", "w");
 	std::vector<Point> p1;
@@ -56,7 +54,7 @@ int main()
 
 
 
-	//--------------------------------------------------------Sprawdzenie odczytu------------------------------------------------
+	//--------------------------------------------------------Reading check------------------------------------------------
 	/*FileFactory file1;
 	IFile* pFileBin = file1.Open("test.bin", "r");
 	std::vector<Point> p1;
@@ -72,7 +70,7 @@ int main()
 
 
 
-	//--------------------------------------------------------Sprawdzenie odczytu linijki------------------------------------------------
+	//--------------------------------------------------------Line reading check------------------------------------------------
 	FileFactory file1;
 	IFile* pFileBin = file1.Open("test.bin", "r");
 	Point wynik;
